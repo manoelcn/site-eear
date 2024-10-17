@@ -1,3 +1,7 @@
 .thin-line {
     border-top: 0.5px solid black; /* Define uma espessura menor */
 }
+
+.thin-line-03 {
+    border-top: 0.2px solid black; /* Define uma espessura menor */
+}
