@@ -5,3 +5,19 @@
 .thin-line-03 {
     border-top: 0.2px solid black; /* Define uma espessura menor */
 }
+
+.cardnoticias {
+    max-width: 95%; margin-top: 20px; margin-bottom: 15px; border: none;
+}
+
+.lupa-icone {
+    z-index: 10;
+    cursor: pointer;
+}
+  
+
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: #86b7fe;
+}
