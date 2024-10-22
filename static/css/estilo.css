@@ -40,3 +40,27 @@
   box-shadow: none;
   border-color: #86b7fe;
 }
+
+/* CSS global para garantir que o conteúdo ocupe toda a altura */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .container-fluid {
+    flex-grow: 1;
+  }
+  
+  /* Estilização do footer */
+  footer {
+    background-color: #203e95;
+    color: white;
+    width: 100%;
+  }
