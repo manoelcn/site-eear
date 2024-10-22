@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIRENS</title>
+    <!-- Bootstrap 5.3.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/css/estilo.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
+    <style>
+        /* CSS para estilizar a lupa e o input */
+        .lupa-icone {
+            z-index: 10;
+            cursor: pointer;
+            /* Transforma o cursor em "dedinho" ao passar sobre a lupa */
+        }
+
+        /* Para o input ao focar */
+        .form-control:focus {
+            outline: none;
+            box-shadow: none;
+            border-color: #86b7fe;
+        }
+
+        /* Para as cartas de notícias */
+        .cardnoticias {
+            margin-top: 25px;
+        }
+    </style>
+</head>
+
+<body style="background-color: #f9f9f9;">
+    <header>
+        <nav class="navbar navbar-expand-lg" style="background-color: #203e95;">
+            <div class="container-fluid d-flex justify-content-between align-items-center">
+                <a class="navbar-brand text-white fs-3 fw-bold" href="index.html"><i class="bi bi-arrow-left"></i></a>
+                <div class="ms-auto"> <!-- Adicione esta div -->
+                    <img src="static/img/direns.png" style="width: 50px;">
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container-fluid">
+        <div class="row">
+            <div class="col-md-10 mx-auto">
+                <div class="row">
+                    <div class="col-md-8 mx-auto"> <!-- Adicionei mx-auto aqui para centralizar a coluna -->
+                        <div class="input-group mb-3" style="position: relative;">
+                            <div class="card cardnoticias"> <!-- Removi a classe mx-auto da card -->
+                                <div class="row g-0">
+                                    <div class="card">
+                                        <img class="card-img-top" src="EAGS.png" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Divulgação dos gabaritos oficiais do Exame de
+                                                Admissão 2024</h5>
+                                            <p class="card-text">
+                                                <strong>Data da Publicação:</strong> 22/10/2024<br>
+                                                <strong>Fonte:</strong> Escola de Especialistas de Aeronáutica
+                                                (EEAR)<br><br>
+
+                                                A EEAR informa que os gabaritos oficiais das provas do Exame de Admissão
+                                                para o Curso de Formação de Sargentos 2024 já estão disponíveis para
+                                                consulta. Os candidatos podem acessar os gabaritos através do portal
+                                                oficial da EEAR.<br><br>
+
+                                                <strong>Detalhes Importantes:</strong><br>
+
+                                                <ul>
+                                                    <li><strong>Acesso aos Gabaritos:</strong> Os gabaritos podem ser
+                                                        consultados no link <a href="provas.html"
+                                                            target="_blank">www.eear.gov.br/gabaritos2024</a>. É necessário
+                                                        ter em mãos o número de inscrição para facilitar a busca.</li>
+                                                    <li><strong>Prazos para Recurso:</strong> Os candidatos que desejarem
+                                                        contestar alguma questão do exame têm até 29/10/2024 para apresentar
+                                                        seus recursos. Os pedidos devem ser feitos pelo sistema de recursos
+                                                        disponível na plataforma da EEAR.</li>
+                                                    <li><strong>Resultados Finais:</strong> Os resultados finais do Exame de
+                                                        Admissão, após a análise dos recursos, serão divulgados no dia
+                                                        05/11/2024. Fiquem atentos às atualizações no site.</li>
+                                                    <li><strong>Orientações para o Cálculo de Desempenho:</strong> Para
+                                                        auxiliar os candidatos a calcular seu desempenho, disponibilizamos
+                                                        um guia passo a passo na seção de perguntas frequentes do site.
+                                                        Acesse e saiba como calcular sua nota com base nas respostas
+                                                        corretas.</li>
+                                                </ul>
+
+                                                <strong>Dúvidas?</strong><br>
+                                                Caso tenha dúvidas sobre o acesso aos gabaritos ou sobre o processo de
+                                                recursos, entre em contato com a Central de Atendimento da EEAR pelo
+                                                telefone (XX) XXXX-XXXX ou pelo e-mail <a
+                                                    href="mailto:atendimento@eear.gov.br">atendimento@eear.gov.br</a>.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Bootstrap 5.3.3 JS with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
