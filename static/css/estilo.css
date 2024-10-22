@@ -11,6 +11,11 @@
     max-height: 100%;
 }
 
+.cardnoticias-full{
+    max-width: 80%; margin-top: 20px; margin-bottom: 15px; border: none;
+    max-height: 100%;
+}
+
 .lupa-icone {
     z-index: 10;
     cursor: pointer;
